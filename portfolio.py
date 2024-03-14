@@ -21,7 +21,7 @@ selected_section = st.sidebar.radio("Navigate", sections)
 
 # About Section
 if selected_section == "👋About":
-    st.header("About Me", divider = 'rainbow')
+    st.header("About Me", divider = 'orange')
     col1, col2 = st.columns(2) # creating columns
 
     with col1:
