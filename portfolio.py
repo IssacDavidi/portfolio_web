@@ -1,5 +1,15 @@
 import streamlit as st
 
+
+hide_streamlit_style = """
+            <style>
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            footer {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
 # Set the page configuration
 st.set_page_config(
     page_title="My Portfolio",
