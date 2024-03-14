@@ -1,13 +1,6 @@
 import streamlit as st
 
 
-hide_streamlit_style = """
-            <style>
-            [data-testid="stToolbar"] {visibility: hidden !important;}
-            footer {visibility: hidden !important;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 # Set the page configuration
@@ -143,7 +136,7 @@ elif selected_section == "📁Projects":
 
 # Run the Streamlit app
 if __name__ == "__main__":
-    st.sidebar.subheader("✉Contact✉", divider = 'violet')
+    st.sidebar.subheader("Contact", divider = 'rainbow')
     col1, col2 = st.sidebar.columns([1,10])
     with col1:
         st.image('https://github.com/IssacDavidi/data_project/blob/main/photos/email.png?raw=true', width = 25)
