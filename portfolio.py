@@ -121,7 +121,7 @@ elif selected_section == "📁Projects":
     st.header("Projects", divider = 'rainbow')
     with st.expander("Exploring the Bookshelf: An Insightful Analysis of Steimatzky's Book Catalog"):
         st.write("- **Project Description:** This project focuses on exploring and analyzing data from Steimatzky, a prominent book retailer. The analysis delves into various aspects, including book prices across different categories, popular authors, and other insightful metrics. Through data visualization and statistical techniques, the project aims to uncover valuable insights and patterns within Steimatzky's book catalog and sales data.")
-        st.write('👉[To the project](https://dataproject-unzfc3jwnrpbj3z9bu4nts.streamlit.app)')
+        st.write('👉[To the project](https://sql-books-project.streamlit.app)')
 
     with st.expander("Dynamic Stock Performance Tracking Dashboard"):
         st.write("- **Project Description:** This interactive stock analysis dashboard provides in-depth insights into various financial metrics and indicators.")
@@ -129,7 +129,7 @@ elif selected_section == "📁Projects":
         st.write("- Users can visualize stock price movements through interactive charting capabilities.")
         st.write("- The dashboard allows for seamless integration of technical indicators onto the charts.")
         st.write("- Additionally, the dashboard provides access to financial statements data in tabular format for further analysis.")
-        st.write('👉[To the project](https://dataproject-unzfc3jwnrpbj3z9bu4nts.streamlit.app)')
+        st.write('👉[To the project](https://stock-analysis-interactive.streamlit.app)')
 
 
 
